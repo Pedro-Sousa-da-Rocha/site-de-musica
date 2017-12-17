@@ -1,0 +1,50 @@
+/* Media Queries do site*/
+@media (max-width:767px) {
+    .navbar-inverse .navbar-brand {
+        font-size: 23px;
+    }
+    .navbar-inverse .navbar-nav li{
+      background-color: #fff;
+    }
+    .navbar-inverse .navbar-nav> li>a{
+      color: #000;
+    }
+}
+
+@media (min-width:768px){
+  .cover-image{
+    background-image: url(../../img/cover-3.gif);
+  }
+  .navbar-inverse .navbar-nav> li>a{
+    color: #D35400;
+    z-index: 1000;
+  }
+}
+
+@media (min-width:700px){
+  .cover-image p {
+    font-size:1.7em;
+    margin-top: 0;
+    top:11em;
+  }
+}
+@media (min-width:776px){
+  .cover-image p {
+    display: inline-block;
+    font-size:1.7em;
+    margin-top: 0;
+    top:11em;
+  }
+  .cover-image .citacao{
+    margin: 0 4ch;
+  }
+}
+
+@media (min-width:1024px){
+  .cover-image .citacao{
+    margin: 0 6ch;
+  }
+  .cover-image{
+    background-image: url(../../img/cover-1.gif);
+  }
+}

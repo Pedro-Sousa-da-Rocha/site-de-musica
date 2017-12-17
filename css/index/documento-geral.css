@@ -1,0 +1,12 @@
+/* Mechidas no documento HTML*/
+body {
+    background-color: #ECF0F1;
+}
+
+main{
+    padding-top: 70px;
+}
+
+article h2 {
+    margin-top: 0;
+}

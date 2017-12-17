@@ -1,0 +1,28 @@
+/*Declaração da parte das noticias*/
+.posicionamento {
+    position: relative;
+}
+.caixinha-do-titulo {
+    font-size: 12px;
+    text-transform: uppercase;
+    color: #000;
+    background-color: white;
+    height: 20px;
+    width: auto;
+    position: absolute;
+    top: -11px;
+    left: 29px;
+    padding: .25em .5em;
+    border-top: 2px solid #F64747;
+}
+.caixinha-do-titulo::before {
+    content: '';
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 3 0 11px 6px;
+    border-color: transparent transparent #F64747 transparent;
+    position: absolute;
+    top: -5px;
+    left: -6px;
+}

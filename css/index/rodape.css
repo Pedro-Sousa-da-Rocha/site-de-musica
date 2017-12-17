@@ -1,0 +1,12 @@
+/* Rodapé da página*/
+.footer{
+  background-color:#000;
+  width:100%;
+  height: 4em;
+  color:#fff;
+  margin-top: 3em;
+}
+
+.footer p{
+  padding-top:1em;
+}

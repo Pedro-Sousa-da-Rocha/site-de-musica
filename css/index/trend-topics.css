@@ -1,0 +1,37 @@
+/* Parte dos trends topics*/
+.trends h3{
+  margin-top: 0;
+  font-weight: bold;
+  }
+
+  .trends{
+    background-color: transparent;
+    background-image: url(../../img/arrow.svg);
+    background-size: 3.8125rem 3.8125rem;
+    margin-bottom: 2em;
+  }
+
+  .trends figure{
+    padding-bottom: 2em;
+  }
+
+.flag{
+  background-color: #F64747;
+  color:#fff;
+  position: absolute;
+  padding: 0 .4em;
+  top: 0.4em;
+  left:11.7em;
+}
+/*Imagens dos trends topics*/
+.imagens{
+  position: relative;
+  padding-bottom: 2em;
+}
+
+.legenda-trends{
+  position: absolute;
+  top:2.2em;
+  left:13em;
+  margin-left: .8em;
+}

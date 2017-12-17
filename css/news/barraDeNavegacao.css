@@ -1,0 +1,22 @@
+/*Botão da barra de navegação*/
+.navbar-toggle {
+    float: right;
+    background-color: #ECF0F1;
+}
+
+.navbar-inverse .navbar-toggle .icone{
+  background-color: #6C7A89;
+}
+/* Barra de navegação em si*/
+.navbar-inverse .navbar-brand {
+    color: #fff;
+}
+.navbar-inverse .navbar-nav>li>a {
+  color: #D35400;
+}
+/* Classes para o uso no toggle do JS. A navbar default e sua mudança depois do Scroll*/
+.navbar-inverse{
+  background-color: black;
+  border-color:black;
+  transition: background-color .5s ease-in-out;
+}
